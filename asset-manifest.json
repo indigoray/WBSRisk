@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/WBSRisk/static/css/main.2d81e6e8.chunk.css",
+    "main.js": "/WBSRisk/static/js/main.2cb41165.chunk.js",
+    "main.js.map": "/WBSRisk/static/js/main.2cb41165.chunk.js.map",
+    "runtime-main.js": "/WBSRisk/static/js/runtime-main.da561f59.js",
+    "runtime-main.js.map": "/WBSRisk/static/js/runtime-main.da561f59.js.map",
+    "static/js/2.a1343cfd.chunk.js": "/WBSRisk/static/js/2.a1343cfd.chunk.js",
+    "static/js/2.a1343cfd.chunk.js.map": "/WBSRisk/static/js/2.a1343cfd.chunk.js.map",
+    "index.html": "/WBSRisk/index.html",
+    "precache-manifest.3aff7eab26dcd3da16e49083e66a074f.js": "/WBSRisk/precache-manifest.3aff7eab26dcd3da16e49083e66a074f.js",
+    "service-worker.js": "/WBSRisk/service-worker.js",
+    "static/css/main.2d81e6e8.chunk.css.map": "/WBSRisk/static/css/main.2d81e6e8.chunk.css.map",
+    "static/js/2.a1343cfd.chunk.js.LICENSE.txt": "/WBSRisk/static/js/2.a1343cfd.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/WBSRisk/static/media/info-background.3dcf0753.svg",
+    "static/media/github-icon.svg": "/WBSRisk/static/media/github-icon.767e15a2.svg",
+    "static/media/header-bg.png": "/WBSRisk/static/media/header-bg.f1a95872.png",
+    "static/media/kendoka.png": "/WBSRisk/static/media/kendoka.1240069c.png",
+    "static/media/user-avatar.jpg": "/WBSRisk/static/media/user-avatar.5bded05c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da561f59.js",
+    "static/js/2.a1343cfd.chunk.js",
+    "static/css/main.2d81e6e8.chunk.css",
+    "static/js/main.2cb41165.chunk.js"
+  ]
+}
