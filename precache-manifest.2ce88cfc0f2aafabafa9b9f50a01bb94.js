@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c97a3cf4cf73d2ecb0d755baf36ef44a",
+    "revision": "5d5070d7742015691bc6da00b7acc245",
     "url": "/WBSRisk/index.html"
   },
   {
