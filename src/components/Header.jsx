@@ -46,9 +46,9 @@ export const Header = (props) => {
                 </div>
 
                 <div className="title">
-                    <h1>{localizationService.toLanguageString('custom.warehouse')}</h1>
+                    <h1>{localizationService.toLanguageString('custom.title')}</h1>
                 </div>
-                <div className="settings">
+                {/* <div className="settings">
                     <span>{localizationService.toLanguageString('custom.language')}</span>
                     <DropDownList
                         textField={'locale'}
@@ -57,14 +57,14 @@ export const Header = (props) => {
                         value={currentLanguage}
                         onChange={onLanguageChange}
                     />
-                </div>
-                <Avatar type={'image'} shape={'circle'}>
+                </div> */}
+                {/* <Avatar type={'image'} shape={'circle'}>
                     {
                         hasImage ?
                             <img ref={imgRef} src={'#'} alt={'User Avatar'} /> :
                             <img src={userAvatar} alt="user-avatar"/>
                     }
-                </Avatar>
+                </Avatar> */}
             </div>
         </header>
     );

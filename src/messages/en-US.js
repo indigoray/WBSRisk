@@ -14,7 +14,7 @@ export const enMessages = {
         "teamCalendar": "Team Calendar",
         "saveChanges": "Save Changes",
         "cancel": "Cancel",
-        "warehouse": "Coffee Warehouse",
+        "title": "WBS Work Risk Probabilities",
         "startFreeTrial": "Start Free Trial",
         "buyNow": "Buy Now",
         "getSource": "Get the source code on GitHub",

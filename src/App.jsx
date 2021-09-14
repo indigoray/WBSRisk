@@ -3,6 +3,7 @@ import React from 'react';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard.jsx';
 import Planning from './pages/Planning.jsx';
+import WorkRiskChart from './pages/WorkRiskChart.jsx';
 import Profile from './pages/Profile.jsx';
 import Info from './pages/Info.jsx';
 import DrawerRouterContainer from './components/DrawerRouterContainer.jsx';
@@ -36,6 +37,7 @@ import { esMessages } from './messages/es';
 import 'hammerjs';
 import '@progress/kendo-theme-default/dist/all.css';
 import './App.scss';
+
 
 load(
     likelySubtags,
@@ -92,7 +94,7 @@ const App = () => {
                         <HashRouter>
                             <DrawerRouterContainer>
                                 <Switch>
-                                    <Route exact={true} path="/" component={Dashboard} />
+                                    <Route exact={true} path="/" component={WorkRiskChart} />
                                     <Route exact={true} path="/planning" component={Planning} />
                                     <Route exact={true} path="/profile" component={Profile} />
                                     <Route exact={true} path="/info" component={Info} />
