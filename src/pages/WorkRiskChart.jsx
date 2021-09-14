@@ -70,14 +70,16 @@ const pieData = [
 
 const WorkRiskChart = () => (
   <>
-  
-    <div className="wbstree">
-      <WBSTree></WBSTree>
-    </div>
-
-    <div className="row mb-3">
-      <div className="col-6">
-        <div className="k-card">
+    <div id="WorkRiskChart" className="workriskchart-page main-content">
+      <div className="card-container grid">
+        <h3 className="card-title">WBS Tree</h3>
+        <div className="card-component">
+          <WBSTree></WBSTree>
+        </div>
+      </div>
+      <div className="card-container grid">
+        <h3 className="card-title">Risk Distribution</h3>
+        <div className="card-component">
           <Chart
             style={{
               height: 350,
@@ -102,10 +104,6 @@ const WorkRiskChart = () => (
               ))}
             </ChartSeries>
           </Chart>
-        </div>
-      </div>
-      <div className="col-6">
-        <div className="k-card">
           <Chart
             style={{
               height: 350,
@@ -128,62 +126,6 @@ const WorkRiskChart = () => (
                   name={item.name}
                 />
               ))}
-            </ChartSeries>
-          </Chart>
-        </div>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-6">
-        <div className="k-card">
-          <Chart
-            style={{
-              height: 350,
-            }}
-          >
-            <ChartTitle text="Area Chart" />
-            <ChartLegend position="top" orientation="horizontal" />
-            <ChartCategoryAxis>
-              <ChartCategoryAxisItem categories={categories} startAngle={45} />
-            </ChartCategoryAxis>
-            <ChartSeries>
-              {areaData.map((item, idx) => (
-                <ChartSeriesItem
-                  key={idx}
-                  type="area"
-                  tooltip={{
-                    visible: true,
-                  }}
-                  data={item.data}
-                  name={item.name}
-                />
-              ))}
-            </ChartSeries>
-          </Chart>
-        </div>
-      </div>
-      <div className="col-6">
-        <div className="k-card">
-          <Chart
-            style={{
-              height: 350,
-            }}
-          >
-            <ChartTitle text="Pie Chart" />
-            <ChartLegend position="top" orientation="horizontal" />
-            <ChartSeries>
-              <ChartSeriesItem
-                type="pie"
-                overlay={{
-                  gradient: "sharpBevel",
-                }}
-                tooltip={{
-                  visible: true,
-                }}
-                data={pieData}
-                categoryField="name"
-                field="share"
-              />
             </ChartSeries>
           </Chart>
         </div>

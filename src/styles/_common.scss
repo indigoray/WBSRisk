@@ -43,6 +43,13 @@ a {
         row-gap: 1em;
     }
 
+    &.grid2c {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 10px;
+        row-gap: 1em;
+    }
+
     .card-title {
 
     }
@@ -214,6 +221,35 @@ a {
 
 // Dashboard page
 .dashboard-page {
+    .card-container:last-of-type {
+        padding-top: 0;
+    }
+
+    .k-grid-toolbar .k-textbox {
+        margin-bottom: 10px;
+    }
+
+    .k-grid .k-virtual-content,
+    .k-grid .k-virtual-content > div {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    
+    .k-badge {
+        z-index: 1
+    }
+}
+
+// WorkRiskChart page
+.workriskchart-page {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 1em;
+
     .card-container:last-of-type {
         padding-top: 0;
     }
