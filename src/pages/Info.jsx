@@ -10,12 +10,15 @@ const Info = () => {
   return (
     <div id="Info" className="info-page main-content">
       <div className="content">
-        <div className="kendoka">
+        {/* <div className="kendoka">
           <img src={kendoka} alt="kendoka" />
-        </div>
+        </div> */}
         <div className="section-1">
-          <h1>Work Risk</h1>
-          <h2>11세부 과제 Text Minding to Work Risk Probability Distribution</h2>
+          <h1>공정 리스크 확률분포</h1>
+          <h2>
+            11세부 과제 Text Minding to Work Risk Probability Distribution
+          </h2>
+          <h3>Changsoft i & i</h3>
           {/* <div className="button-group">
             <a
               className="k-button k-primary"
